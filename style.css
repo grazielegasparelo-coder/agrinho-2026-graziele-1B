@@ -45,9 +45,31 @@ display: flex;
 
 }
 
+.problema-textos{
 
+flex:1;
+}
 
+problema-titulo{
+font-size: 3rem;
+    color: var(rgb(8, 131, 45));
+    line-height: 1.2;
+    margin-bottom: 20px;
 
-
-
-
+}  .problema-paragrafo{
+font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #4b4f50;
+}
+  .problema-imagem{
+flex:1 ;
+display: flex;
+justify-content: center;
+  }
+  .problema-foto{
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(92, 89, 89, 0.1);
+  }
