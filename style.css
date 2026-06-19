@@ -1,5 +1,5 @@
-.cabecalho
-    {display: flex;
+.cabecalho {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 5%;
@@ -8,14 +8,14 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    }
-   
-    .cabecalho-menu{
+}
+
+.cabecalho-menu {
     display: block;
     unicode-bidi: isolate;
 }
 
-.cabecalho-menu-item{
+.cabecalho-menu-item {
     text-decoration: none;
     color: var(--text-color);
     margin: 0 15px;
@@ -23,7 +23,7 @@
     transition: color 0.2s;
 }
 
-.cabecalho-menu-botao{
+.cabecalho-menu-botao {
     background-color: black;
     color: white;
     border: none;
@@ -34,9 +34,10 @@
     font-size: 0.9rem;
     transition: transform 0.2s;
 }
-.problema{
 
-display: flex;
+.problema {
+
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 60px 5%;
@@ -45,31 +46,44 @@ display: flex;
 
 }
 
-.problema-textos{
+.problema-textos {
 
-flex:1;
+    flex: 1;
 }
 
-problema-titulo{
-font-size: 3rem;
+problema-titulo {
+    font-size: 3rem;
     color: var(rgb(8, 131, 45));
     line-height: 1.2;
     margin-bottom: 20px;
 
-}  .problema-paragrafo{
-font-size: 1.2rem;
-    margin-bottom: 30px;
-    color: #4b4f50;
 }
-  .problema-imagem{
-flex:1 ;
-display: flex;
-justify-content: center;
-  }
-  .problema-foto{
+
+.problema-paragrafo {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #107c97;
+}
+
+.problema-imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.problema-foto{
     width: 100%;
     max-width: 550px;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(92, 89, 89, 0.1);
-  }
+}
+
+.rodape{
+
+text-align: center;
+
+}
+
+
+
